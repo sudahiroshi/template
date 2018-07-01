@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="ja-JP">
+  <head>
+    <meta charset="UTF-8">
+    <title>シミュレータのひな形</title>
+    <link rel="stylesheet" href="simulator.css">
+    <script src="./js/nylon.js"></script>
+    <script src="./js/vcanvas.js"></script>
+    <script src="./js/vbtimer.js"></script>
+    <script src="./js/simulator.js"></script>
+  </head>
+  <body>
+    <div id="contents">
+      <div id="panel">
+        <div>
+          <button type="button" id="start" class="normal">start</button>
+          <button type="button" id="stop" class="normal">stop</button>
+        </div>
+      </div>
+      <div id="main">
+        <div id="area1" class="area">
+          <p>　グラフ</p>
+          <canvas class="myCanvas" id="graph1" width="460" height="200"></canvas>
+          <canvas class="myCanvas" id="graph1b" width="460" height="200"></canvas>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>
